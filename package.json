@@ -8,14 +8,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@3id/connect": "^0.2.5",
+    "@ceramicnetwork/3id-did-resolver": "^1.4.12",
+    "@ceramicnetwork/http-client": "^1.5.3",
+    "@ceramicnetwork/stream-caip10-link": "^1.2.5",
     "@chakra-ui/react": "^1.7.4",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@walletconnect/web3-provider": "^1.7.0",
+    "ethers": "^5.5.2",
     "framer-motion": "^5",
     "gh-pages": "^3.2.3",
     "next": "12.0.7",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "web3modal": "^1.9.4"
   },
   "devDependencies": {
     "eslint": "8.6.0",
