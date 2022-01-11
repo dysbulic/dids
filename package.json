@@ -1,11 +1,16 @@
 {
   "name": "dids",
-  "private": true,
+  "private": false,
+  "version": "0.1.0",
+  "license": "CC0",
+  "homepage": "https://dysbulic.github.io/dids/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out/ --dotfiles",
+    "pub": "yarn build && next export && yarn deploy"
   },
   "dependencies": {
     "@3id/connect": "^0.2.5",
